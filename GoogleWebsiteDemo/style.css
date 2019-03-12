@@ -1,0 +1,162 @@
+body {
+    font-family: sans-serif, Arial;
+    font-size: .8em;
+    margin: 0;
+}
+/*Flex nav bar*/
+
+header nav {
+    display: grid;
+    grid-template-columns: 45px auto 45px 45px 45px 75px;
+    grid-template-rows: 35px;
+    grid-gap: 1rem;   
+    padding: 5px 1.5em;
+    margin: .3em;
+    align-items: baseline;
+}
+
+li, a, .button1 {
+    list-style-type: none;
+    text-decoration: none; 
+    color: black;
+    padding: .4em;   
+}
+
+.button1 {
+  background-color: #3C85EA;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 6px 16px;
+  height: 32px;
+  width: 75px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px; 
+  border-radius: 4px;
+}
+
+/*Google heading text*/
+.gLogo {   
+    font-size: 1em;
+    text-align: center;
+    padding-top: 125px;
+    margin-top: 165px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+@font-face {
+    font-family: "CustomFont";
+    src: url(ProductSans-Regular.ttf);
+}
+
+div span {
+    font-family: "CustomFont";
+}
+
+.bo {
+    margin-top: auto;
+}
+
+span, .colored-text-1 {
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+    font-family: Helvetica;
+    font-size: 6em;
+    font-weight: bold;
+    
+}
+
+.colored-text-1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.colored-text-2 {
+    color: red;
+}
+
+.colored-text-3 {
+    color: orange;
+}
+
+.colored-text-4 {
+    color: blue;
+}
+
+.colored-text-5 {
+    color:green;
+}
+
+.colored-text-6 {
+    color: red;  
+}
+
+.colored-text-6 {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+/*TextInputBox*/
+input[type=text] {
+  background-image: url('GoogleWebsiteDemo/GoogleMic.png');
+  height: 45px;
+  width: 55%;
+  margin-top: 5px;
+  box-shadow:  0  6px 20px 0 rgba(0,0,0,0.19); 
+  margin-bottom: 35px;
+  border: 0em;
+  border-radius: 2px;
+}
+
+/*G microphone*/
+.gMic {
+  position: fixed;
+  right: -3px;
+  width: 300px;
+  top: 264px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.button, .button2 {
+  background-color: #f4f4f4;
+  border: none;
+  border-radius: 5px; 
+  color: #605e5e;
+  padding: 8px 18px;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+footer nav {
+  position: fixed; 
+  display: grid;
+  grid-template-columns: 90px auto 90px 90px 90px;  
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  border-top-style: solid;
+  border-top-width: thin; 
+  color: #b3b3b3;   
+  padding-top: 13px;
+  padding-left: 1.5em; 
+  padding-bottom: 25px;
+  align-content: center
+  list-style-type: none;
+  font: arial;
+  border-top-color: lightgray;
+  background-color: #f4f4f4;
+}
